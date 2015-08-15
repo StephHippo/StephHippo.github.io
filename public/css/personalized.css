@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   background-color: #EAE5E5;
-  color: #5E5654;
+  color: #777;
   /* The html and body elements cannot have any padding or margin. */
 }
 
@@ -46,10 +46,6 @@ code {
   font-size: 80%;
 }
 
-div.navbar {
-  background-color: #EAE5E5;
-}
-
 .photo{
 	width: 300px;
 	height: 300px;
@@ -74,11 +70,11 @@ div.navbar {
 	background-color: #BA77BA;
 }
 
-.portfolio {
+.blog {
 	background-color: #77BABA;  
 }
 
-.blog {
+.portfolio {
 	background-color: #BABA77;
 }
 
@@ -86,5 +82,12 @@ h3.center{
   vertical-align: center;
   text-align: center;
   padding: 60px 0px 0px 0px;
-  color: #5E5654;
+}
+
+a{
+	color: #777;
+}
+
+a:hover {
+	color: white;
 }
