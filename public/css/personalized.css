@@ -1,0 +1,88 @@
+html,
+body {
+  height: 100%;
+  background-color: #EAE5E5;
+  color: #5E5654;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #77BABA;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#wrap > .container {
+  padding: 60px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.navbar {
+  background-color: #EAE5E5;
+}
+
+.photo{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(https://avatars3.githubusercontent.com/u/2295133?v=3&s=300) no-repeat;
+	margin: 0 0 10px 0;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px; 
+  text-align: center;
+  vertical-align: center;
+  margin: 50px 10px 10px 10px;
+  /* width and height can be anything, as long as they're equal */
+}
+
+.resume{
+	background-color: #BA77BA;
+}
+
+.portfolio {
+	background-color: #77BABA;  
+}
+
+.blog {
+	background-color: #BABA77;
+}
+
+h3.center{
+  vertical-align: center;
+  text-align: center;
+  padding: 60px 0px 0px 0px;
+  color: #5E5654;
+}
