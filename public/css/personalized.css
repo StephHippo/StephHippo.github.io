@@ -53,41 +53,53 @@ code {
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(https://avatars3.githubusercontent.com/u/2295133?v=3&s=300) no-repeat;
-	margin: 0 0 10px 0;
+	margin: 0 0 10px 60px;
 }
 
 .circle {
   border-radius: 50%;
-  width: 200px;
-  height: 200px; 
+  width: 165px;
+  height: 165px; 
   text-align: center;
   vertical-align: center;
-  margin: 50px 10px 10px 10px;
+  margin: 30px 10px 10px 10px;
   /* width and height can be anything, as long as they're equal */
 }
 
 .resume{
-	background-color: #BA77BA;
+  background-color: #BA77BA;
 }
 
 .blog {
-	background-color: #77BABA;  
+  background-color: #77BABA;  
 }
 
 .portfolio {
-	background-color: #BABA77;
+  background-color: #BABA77;
 }
 
 h3.center{
   vertical-align: center;
   text-align: center;
-  padding: 60px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
 }
 
-a{
-	color: #777;
+a {
+  color: #777;
 }
 
 a:hover {
-	color: white;
+  color: white;
+}
+
+.home {
+  margin: 100px 0px 100px 0px;
+}
+
+#tagline{
+  margin: 0px 0px 0px 50px;
+}
+
+#circle-collection{
+  margin: 0px 0px 0px 20px;
 }
