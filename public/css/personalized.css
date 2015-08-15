@@ -21,6 +21,8 @@ body {
 #footer {
   height: 60px;
   background-color: #77BABA;
+  text-align: center;
+  padding: 10px;
 }
 
 
@@ -44,7 +46,7 @@ code {
   font-size: 80%;
 }
 
-.navbar {
+div.navbar {
   background-color: #EAE5E5;
 }
 
