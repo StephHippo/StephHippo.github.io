@@ -84,11 +84,12 @@ h3.center{
   padding: 45px 0px 0px 0px;
 }
 
-a {
+li {
   color: #777;
+  list-style: none;
 }
 
-a:hover {
+li:hover {
   color: white;
 }
 
